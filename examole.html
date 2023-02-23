@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <script>
+            function add(){
+                let x;
+                let y;
+                x=27;
+                y=19;
+                let z=x+y;
+                 document.getElementById('add').innerHTML=z;
+            }
+                function sub(){
+                let x;
+                let y;
+                x=27;
+                y=19;
+                let z=x-y;
+                document.getElementById('sub').innerHTML=z;
+
+
+            }
+            function divi(){
+            let x;
+            let y;
+            x=40;
+            y=20;
+            let z=x/y;
+            document.getElementById('divi').innerHTML=z;
+            }
+             </script>
+            </head>
+        <body>
+            <p>27+19</p>
+             <P id="add"></P>
+       <button type="button" onclick="add()">add</button>
+       <p>27-19</p>
+             <P id="sub"></P>
+       <button type="button" onclick="sub()">sub</button>
+       <p>27/19</p>
+         <p id="divi"></p>
+        <button type="button" onclick="divi()">divi</button>
+    
+
+</html>
+</body>
